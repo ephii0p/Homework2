@@ -2,8 +2,9 @@ public class Sale {
     public static void main(String[] args) {
     int CostShirt = 3550;
     int quantityShirt = 6;
-    int quantityShirtforDiscount = 10;
-    int quantityNeededforDiscount = quantityShirtforDiscount-quantityShirt;
+    final int QUANTITY_SHIRT_FOR_DISCOUNT = 10;
+
+    int quantityNeededforDiscount = QUANTITY_SHIRT_FOR_DISCOUNT-quantityShirt;
         System.out.println(quantityNeededforDiscount);
 
         int sumofprice = CostShirt*quantityShirt;

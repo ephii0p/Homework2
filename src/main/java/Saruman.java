@@ -1,9 +1,10 @@
 public class Saruman {
     public static void main(String[] args) {
-        long SarumanArmy = 25843;
-        long LannisterArmy = 55145;
-        long UnionArmy = SarumanArmy + LannisterArmy;
-        System.out.println(UnionArmy);
+        final long SARUMAN_ARMY = 25843;
+        final long LANNISTER_ARMY = 55145;
+
+        final long UNION_ARMY = SARUMAN_ARMY + LANNISTER_ARMY;
+        System.out.println(UNION_ARMY);
 
     }
 }
