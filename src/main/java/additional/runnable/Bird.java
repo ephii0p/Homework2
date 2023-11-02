@@ -5,6 +5,9 @@ public class Bird implements Runnable {
 
         System.out.println("Птичка беги!");
     }
+
     public static void main(String[] args) {
         Bird bird = new Bird();
         bird.run();
+    }
+}
