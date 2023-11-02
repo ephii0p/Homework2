@@ -1,4 +1,4 @@
-package taskadditional;
+package additional;
 
 public class Primitives {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package taskadditional.privatint;
+package additional.privatint;
 
 public class Private {
     private int age;
@@ -6,7 +6,7 @@ public class Private {
         public int getAge() {
             return age;
         }
-    public void setAge(int аge) {
+    public void setAge(int age) {
         this.age = age;
     }
 }

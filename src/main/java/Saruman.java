@@ -3,7 +3,7 @@ public class Saruman {
         final long sarumanArmy = 25843;
         final long lannistrerArmy = 55145;
 
-        final long UNION_ARMY = sarumanArmy + lannistrerArmy;
-        System.out.println(UNION_ARMY);
+        final long unionArmy = sarumanArmy + lannistrerArmy;
+        System.out.println(unionArmy);
     }
 }

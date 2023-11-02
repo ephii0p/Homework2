@@ -1,4 +1,4 @@
-package taskadditional.cattask5;
+package additional.cattask5;
 
 public class Cat {
     private String name;
@@ -10,22 +10,22 @@ public class Cat {
         this.age = age;
         this.weight = weight;
     }
-            public String getName () {
-            return name;
-        }
-        public void setName (String name){
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
         this.name = name;
-        }
-        public int getAge () {
-            return age;
-        }
-        public void setAge ( int age){
-            this.age = age;
-        }
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
     public int getWeight() {
         return weight;
     }
     public void setWeight(int weight) {
         this.weight = weight;
     }
-    }
+}

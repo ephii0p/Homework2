@@ -1,4 +1,4 @@
-package taskadditional.runnable;
+package additional.runnable;
 
 public class Dog implements Runnable {
     public void run() {
