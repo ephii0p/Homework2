@@ -2,8 +2,8 @@ public class Staff {
     public static final byte PROGRAMMER = 24;
     public static final byte QA = 3;
     public static final byte SUPPORT = 5;
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int sumQA = PROGRAMMER * QA;
         System.out.println("Количество тестировщиков" + sumQA);
 
