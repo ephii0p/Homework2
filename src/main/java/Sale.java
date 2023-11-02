@@ -4,27 +4,27 @@ public class Sale {
         int quantityShirt = 6; //количество в корзине, изменится, когда захотим получить скдку
         final int quantityShirtForDiscount = 10; // количество рубашек для скидки
 
-        int quantityNeededforDiscount = quantityShirtForDiscount - quantityShirt;
-        System.out.println(quantityNeededforDiscount);
+        int quantityNeededForDiscount = quantityShirtForDiscount - quantityShirt;
+        System.out.println(quantityNeededForDiscount);
 
-        int sumofprice = costShirt * quantityShirt;
-        System.out.println(sumofprice);
+        int sumOfPrice = costShirt * quantityShirt;
+        System.out.println(sumOfPrice);
 
-        int neededforDiscount = costShirt * quantityNeededforDiscount;
-        System.out.println(neededforDiscount);
+        int neededForDiscount = costShirt * quantityNeededForDiscount;
+        System.out.println(neededForDiscount);
 
         double discount = 32.1; //скидка
-        double sumShirtswithDiscount = (sumofprice + neededforDiscount) -
-                ((sumofprice + neededforDiscount) / 100 * discount);
-        System.out.println(sumShirtswithDiscount);
+        double sumShirtsWithDiscount = (sumOfPrice + neededForDiscount) -
+                ((sumOfPrice + neededForDiscount) / 100 * discount);
+        System.out.println(sumShirtsWithDiscount);
 
         double costShirtwithDiscount = costShirt - (costShirt / 100 * discount);
         System.out.println(costShirtwithDiscount);
 
-        double economy = (sumofprice + neededforDiscount) - sumShirtswithDiscount;
+        double economy = (sumOfPrice + neededForDiscount) - sumShirtsWithDiscount;
         System.out.println(economy);
 
-        double FreeShirts = economy / costShirt;
-        System.out.println(FreeShirts);
+        double freeShirts = economy / costShirt;
+        System.out.println(freeShirts);
     }
 }

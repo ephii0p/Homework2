@@ -1,9 +1,10 @@
 public class Mortgage {
-    public static void main(String[] args) {
-        final int costApartement = 3900000; //стоимость жилья
-        double downPaymentPercentage = 15.5; //процентная ставка, не постоянная, может изменяться ЦБРФ
+    private static final int COST_APARTEMENT = 3900000; //стоимость жилья
+    private static double DOWN_PAYMENT_PERSENTAGE = 15.5; //процентная ставка, не постоянная, может изменяться ЦБРФ
 
-        double downPayment = costApartement/100*downPaymentPercentage;
+    public static void main(String[] args) {
+
+        double downPayment = COST_APARTEMENT / 100*DOWN_PAYMENT_PERSENTAGE;
         System.out.println(downPayment);
     }
 }

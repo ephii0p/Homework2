@@ -1,9 +1,9 @@
 public class Cup {
+    private static int ML_CUP = 200; //объем кружки в мл
+    private static double PRECENT = 35.6; //процент заполнения
     public static void main(String[] args) {
-        final int mlCup = 200; //объем кружки в мл
-        double precent = 35.6; //процент заполнения
 
-        double fillPercentage = mlCup / 100 * precent;
+        double fillPercentage = ML_CUP / 100 * PRECENT;
         System.out.println(fillPercentage);
     }
 }
