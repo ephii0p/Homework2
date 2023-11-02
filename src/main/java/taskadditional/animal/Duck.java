@@ -7,6 +7,5 @@ public abstract class Duck extends Animal{
 
     @Override
     void move() {
-
     }
 }

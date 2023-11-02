@@ -1,9 +1,9 @@
 public class Buratino {
     public static void main(String[] args) {
-        final int BURATINO_APPLES = 10;
-        byte KarabasTakeApplesAway = 4;
+        final int buratinoapples = 10;
+        byte KarabasTakeApplesAway = 4; // карабас забрал
 
-        long ApplesLeft = BURATINO_APPLES - KarabasTakeApplesAway;
+        long ApplesLeft = buratinoapples - KarabasTakeApplesAway;
         System.out.println(ApplesLeft);
     }
 }

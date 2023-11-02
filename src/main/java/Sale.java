@@ -1,30 +1,30 @@
 public class Sale {
     public static void main(String[] args) {
-    int CostShirt = 3550;
-    int quantityShirt = 6;
-    final int QUANTITY_SHIRT_FOR_DISCOUNT = 10;
+        final int costShirt = 3550; // цена рубашки
+        int quantityShirt = 6; //количество в корзине, изменится, когда захотим получить скдку
+        final int quantityShirtForDiscount = 10; // количество рубашек для скидки
 
-    int quantityNeededforDiscount = QUANTITY_SHIRT_FOR_DISCOUNT-quantityShirt;
+        int quantityNeededforDiscount = quantityShirtForDiscount - quantityShirt;
         System.out.println(quantityNeededforDiscount);
 
-        int sumofprice = CostShirt*quantityShirt;
+        int sumofprice = costShirt * quantityShirt;
         System.out.println(sumofprice);
 
-        int NeededforDiscount = CostShirt*quantityNeededforDiscount;
-        System.out.println(NeededforDiscount);
+        int neededforDiscount = costShirt * quantityNeededforDiscount;
+        System.out.println(neededforDiscount);
 
-        double Discount = 32.1;
-        double sumShirtswithDiscount = (sumofprice+NeededforDiscount)-
-                ((sumofprice+NeededforDiscount)/100*Discount);
+        double discount = 32.1; //скидка
+        double sumShirtswithDiscount = (sumofprice + neededforDiscount) -
+                ((sumofprice + neededforDiscount) / 100 * discount);
         System.out.println(sumShirtswithDiscount);
 
-        double CostShirtwithDiscount = CostShirt-(CostShirt/100*Discount);
-        System.out.println(CostShirtwithDiscount);
+        double costShirtwithDiscount = costShirt - (costShirt / 100 * discount);
+        System.out.println(costShirtwithDiscount);
 
-        double Economy = (sumofprice+NeededforDiscount)-sumShirtswithDiscount;
-        System.out.println(Economy);
+        double economy = (sumofprice + neededforDiscount) - sumShirtswithDiscount;
+        System.out.println(economy);
 
-        double FreeShirts = Economy/CostShirt;
+        double FreeShirts = economy / costShirt;
         System.out.println(FreeShirts);
     }
 }

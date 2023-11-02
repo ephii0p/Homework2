@@ -7,6 +7,5 @@ public abstract class Fish extends Animal{
 
     @Override
     void move() {
-
     }
 }
